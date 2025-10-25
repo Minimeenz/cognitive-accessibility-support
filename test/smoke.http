@@ -1,0 +1,33 @@
+### Health
+GET http://localhost:8787/api/health
+
+### Plan
+POST http://localhost:8787/api/cas/plan
+Content-Type: application/json
+
+{
+  "goal": "Finish homework outline",
+  "friction": "Hard to start",
+  "strengths": "Timers help",
+  "sleepHours": 7,
+  "mood": 3,
+  "focus": 3
+}
+
+### Coach
+POST http://localhost:8787/api/cas/coach
+Content-Type: application/json
+
+{
+  "question": "Make the first step easier.",
+  "plan": { "items": [{ "title": "Write intro", "why": "Start small" }] }
+}
+
+### Robotics
+POST http://localhost:8787/api/robotics/skills
+Content-Type: application/json
+
+{
+  "intent": "Help me set out meds in the kitchen at 8 pm.",
+  "environment": { "roomType": "kitchen", "devices": ["smart speaker"] }
+}
