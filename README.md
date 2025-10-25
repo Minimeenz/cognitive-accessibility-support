@@ -1,3 +1,25 @@
+"""
+# CAS App Overview
+
+The **Cognitive & Accessibility Support (CAS) App** is an AI-driven platform designed to
+assist users with high cognitive and accessibility needs through personalized planning,
+coaching, and assistive robotics simulation.
+
+Its core purpose is to make daily goal-setting, focus, and task execution easier for
+users who may experience cognitive overload, attention variability, or sensory challenges.
+
+### What the CAS App Does
+- **Adaptive Planning:** Generates daily micro-plans broken into simple, meaningful steps
+  that explain *why* each action matters.
+- **AI Coaching:** Provides plain-language Q&A coaching to encourage progress and self-reflection.
+- **Accessibility Robotics Simulation:** Suggests safe assistive robot "skills" for tasks
+  such as navigation, reminders, or item handling, preparing for future integration with
+  real robotic systems and smart environments.
+
+### Vision
+CAS bridges artificial intelligence and accessibility, empowering neurodiverse users to
+achieve goals independently, reduce cognitive friction, and improve mental-well-being over time.
+"""
 
 # CAS App Models (APIs)
 
